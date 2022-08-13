@@ -124,7 +124,7 @@ a:active {
 
 .header__logo {
 	flex-grow: 1;
-	z-index: 1;
+	z-index: 2;
 }
 
 .header__nav {
@@ -156,7 +156,7 @@ a:active {
 	font-size: 18px;
 	line-height: 22px;
 	color: var(--black-light);
-	z-index: 1;
+	z-index: 2;
 }
 
 .header__burger {
@@ -168,7 +168,7 @@ a:active {
 	justify-content: center;
 
 	display: none;
-	z-index: 1;
+	z-index: 2;
 }
 
 .header__burger-button {
@@ -236,6 +236,7 @@ a:active {
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
 	-o-transition: all .3s;
+	z-index: 1;
 }
 
 .header__menu.active {
